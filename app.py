@@ -41,9 +41,9 @@ EXAMPLE_NO = 1
 
 ### load data
 def load_data():
-    Chaussures_Enfants = pd.read_csv('Chaussures_Enfants.csv', encoding='latin-1')
+    Chaussures_Enfants = pd.read_csv('chaussures_enfants.csv', encoding='latin-1')
     Chaussures_Hommes  = pd.read_csv('Chaussures_Hommes.csv', encoding='latin-1', sep=";")
-    Vetements_Enfants  = pd.read_csv('Vetements_enfants.csv', encoding='latin-1', sep=";")
+    Vetements_Enfants  = pd.read_csv('Vetements_Enfants.csv', encoding='latin-1', sep=";")
     Vetements_Hommes   = pd.read_csv('Vetements_Hommes.csv', encoding='latin-1', sep=";")
     return Chaussures_Enfants, Chaussures_Hommes, Vetements_Enfants, Vetements_Hommes
 
